@@ -2,6 +2,21 @@ name: terence.ondricka
 description: User fork
 version: 1
 author: pasquale.flatley@yahoo.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: pasquale.flatley@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-04 20:29:59'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Dr__Neda_Armstrong:
+    name: Dr__Neda_Armstrong
+    description: Really solid info
+    createdAt: '2022-01-04 20:29:59'
+    author: pasquale.flatley@yahoo.com
